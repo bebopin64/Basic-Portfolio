@@ -1,0 +1,92 @@
+.myName {
+	float: left;
+	height: 100px;
+	background-color: teal;
+	padding: 0 40px 0 40px;
+	margin-left: 50px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.pageNav {
+	float: right;
+	padding-top: 45px;
+	padding-right: 50px;
+
+}
+
+.pageLinks {
+	float: right;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.pageLinks:active {
+	float: right;
+	margin: 0 auto;
+	padding: 5px;
+	color: red;
+}
+
+.pageLinks:hover {
+	float: right;
+	margin: 0 auto;
+	padding: 5px;
+	color: gray;
+	
+}
+
+.pageLinks:focus {
+	float: right;
+	margin: 0 auto;
+	padding: 5px;
+	color: blue;
+}
+
+/*.topContainer {
+	height: 130px;
+}*/
+
+.container {
+	padding: 20px 15px 20px 15px;
+	background-color: lightgray;
+	clear: both;	 
+}
+
+.aboutMe {
+	width: 50%;
+	float: left;
+	margin: 25px 25px 25px 25px;
+	border-width: 5px;
+	border-color: black;
+}
+
+.connectFloater {
+	background-color: darkgray;
+	float: right;
+
+}
+
+.footer {
+	clear: both;
+}
+
+body {
+	font-size: 13.66px;
+}
+
+h1 {
+	font-family: serif;
+	font-size: 3em;
+	color: white;
+	margin-top: 30px;
+	font-family: 'Fjalla One';
+}
+
+p {
+	margin: 1em 0px;
+}
+
+#headShot {
+	float: left;
+	margin-right: 10px;
+}
