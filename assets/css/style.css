@@ -1,15 +1,27 @@
 .myName {
+	position: relative;
 	float: left;
-	height: 100px;
+	height: 90px;
 	background-color: teal;
+	border-radius: 25px;
 	padding: 0 40px 0 40px;
-	margin-left: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	margin: 25px 0 10px 40px;
+	font-family: 'Ubuntu Condensed', sans-serif;}
+
+myName:after {
+	content: '';
+	position: absolute;
+	background: #666;
+	top: -1px;
+ 	left: -1px;
+ 	right: -1px;
+ 	bottom: -1px;
+	z-index: -1;
 }
 
 .pageNav {
 	float: right;
-	padding-top: 30px;
+	padding-top: 45px;
 	padding-right: 50px;
 
 }
@@ -50,6 +62,9 @@
 	padding: 20px 15px 20px 15px;
 	clear: both;
 	overflow: hidden;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #666;
 	border-bottom-width: 5px;
 	border-bottom-color: teal;
 	border-bottom-style: solid;
@@ -62,26 +77,50 @@
 	float: left;
 	margin: 25px 25px 25px 25px;
 	background-color: white;
+	border-radius: 25px;
 	padding: 25px 25px 25px 25px;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .aboutMeText::first-letter {
 	font-size: 30px;
 	color: rebeccapurple;
 	padding: 2px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-left: -3px;
 }
 
-.connectFloater {
-	background-color: darkgray;
+.float {
+	background-color: #fff;
+	border-radius: 25px;
 	float: right;
+	height: 175px;
+	width: 270px;
+	position: fixed;
+	top: 178px;
+	left: 68%;
+}
 
+.floatChildA {
+	text-align: center;
+	font-size: 2em;
+	margin: 25px 0 40px 0;
+}
+
+.iconsContainer {
+	text-align: center;
+}
+
+.icons {
+	display: inline-block;
+	width: 80px;
 }
 
 .footer {
 	clear: both;
 	text-align: center;
 	padding: 25px;
-	background-color: #666666;
+	background-color: #666;
 	font-size: 1.2em;
 	color: lightgray;
 }
@@ -93,21 +132,28 @@ body {
 h1 {
 	font-family: serif;
 	font-size: 3em;
-	color: white;
 	margin-top: 30px;
 	font-family: 'Fjalla One';
 }
 
 h2 {
 	font-family: sans-serif;
-	font-size: 2em;
+	font-size: 3em;
+	color: #333;
 }
 
 p {
 	margin: 1em 0px;
 }
 
+p.aboutMeText {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
 #headShot {
 	float: left;
-	margin-right: 10px;
+	margin: 0 13px 10px 0;
+	padding-top: 10px;
 }
