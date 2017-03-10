@@ -13,7 +13,7 @@
 	height: 60px;
 	width: 230px;
 	background-image: url("../images/confectionary.png");
-	border-radius: 25px;
+	border-radius: 16px;
 	padding: 0 40px 0 40px;
 	margin: 10px 0 10px 12px;
 	position: relative;
@@ -35,7 +35,7 @@
 
 .pageLinks {
 	background-image: url("../images/confectionary.png");
-	border-radius: 25px;
+	border-radius: 10px;
 	float: right;
 	padding: 4px 10px 4px 10px;
 	font-size: 2em;
@@ -44,7 +44,7 @@
 
 .pageLinksContact {
 	background-image: url("../images/confectionary.png");
-	border-radius: 25px;
+	border-radius: 10px;
 	float: right;
 	padding: 4px 10px 4px 10px;
 	font-size: 2em;
@@ -53,7 +53,7 @@
 
 .pageLinks:hover {
 	background-image: url("../images/containerBG.png");
-	border-radius: 25px;
+	border-radius: 10px;
 	float: right;
 	padding: 4px 10px 4px 10px;
 	font-size: 2em;
@@ -62,18 +62,11 @@
 
 .pageLinksContact:hover {
 	background-image: url("../images/containerBG.png");
-	border-radius: 25px;
+	border-radius: 10px;
 	float: right;
 	padding: 4px 10px 4px 10px;
 	font-size: 2em;
 	margin: 3px 0 0 10px;
-}
-
-.pageLinkDividers {
-	float: right;
-	margin: 0 auto;
-	padding: 5px;
-	font-size: 2em;
 }
 
 .container {
@@ -83,7 +76,7 @@
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	border-bottom-width: 5px;
-	border-bottom-color: teal;
+	border-bottom-color: #222;
 	border-bottom-style: solid;
 	background-image: url("../images/containerBG.png");
 	background-repeat: repeat;
@@ -91,37 +84,28 @@
 }
 
 .aboutMe {
-	width: 650px;
+	width: 600px;
 	float: left;
 	margin: 12px 0px 12px 12px;
 	background-image: url("../images/confectionary.png");
-	border-top-right-radius: 25px;
-	border-top-left-radius: 25px;
+	border-top-right-radius: 19px;
+	border-top-left-radius: 19px;
 	padding: 20px 25px 25px 25px;
-	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .aboutMeTitle {
 	background-image: url("../images/containerBG.png");
-	border-radius: 25px;
+	border-radius: 10px;
 	padding: 10px 0 0 30px;
 	margin-bottom: 18px;
 	height: 40px;
 	width: 170px;
 }
 
-#headShot {
-	vertical-align:bottom;
-    position:relative;
-    z-index:-1;
-}
-
 .imgWrap {
-	margin: 10px 10px 0 0;
+	margin: 7px 10px 0 0;
 	overflow:hidden;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 25px;
+    border-radius: 12px;
     border: 0px;
     display:inline-block;
     float: left;
@@ -129,52 +113,28 @@
 
 p.aboutMeText {
 	font-size: 1.2em;
+
 }
 
 .aboutMeText::first-letter {
 	font-size: 1.5em;
 	color: rebeccapurple;
 	padding: 1px;
-	font-family: 'Ubuntu Condensed', sans-serif;
 	margin-left: -3px;
 }
 
 .float {
-	height: 56px;
-	width: 161px;
+	height: 100px;
+	width: 270px;
 	top: 112px;
-	left: 760px;
+	left: 686px;
 	background-image: url("../images/confectionary.png");
-	border-radius: 27px;
+	border-radius: 19px;
 	position: fixed;
 }
 
 .linkImgFloat {
 	float: left;
-}
-
-.floatChildA {
-	text-align: center;
-	vertical-align: center;
-	font-size: 2em;
-	margin: 25px 0 40px 0;
-	padding-top: 25px;
-	background-color: white;
-	height: 53px;
-	border-radius: 25px;
-}
-
-.iconsContainer {
-	text-align: center;
-	background-color: white;
-	border-radius: 25px;
-	height: 70px;
-	padding-top: 20px;
-}
-
-.icons {
-	display: inline-block;
-	width: 80px;
 }
 
 .footer {
@@ -190,22 +150,93 @@ p.aboutMeText {
 
 body {
 	font-size: 13.66px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-size: 3em;
 	margin-top: 30px;
 	color: #444;
 }
 
 h2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-size: 2.2em;
 	color: #444;
 }
 
-p {
-	margin: 1em 0px;
+
+
+/*CONTACT SPECIFIC (Mostly)*/
+
+
+
+.contactQ {
+	color: #444;
+	font-size: 1.2em;
+	font-weight: 700;
 }
+
+.contactA {
+	margin-left: 5px;
+}
+
+.aboutMeContact {
+	background-image: url("../images/containerBG.png");
+	border-radius: 10px;
+	padding: 10px 0 0 42px;
+	margin-bottom: 18px;
+	height: 40px;
+	width: 158px;
+}
+
+/*PORTFOLIO SPECIFIC*/
+
+.aboutMePortfolio {
+	background-image: url("../images/containerBG.png");
+	border-radius: 10px;
+	padding: 10px 0 0 42px;
+	margin-bottom: 18px;
+	height: 40px;
+	width: 158px;
+}
+
+.portEntry {
+	float: left;
+	border-radius: 9px;
+	overflow: hidden;
+	margin: 37px;
+	position: relative;
+	width: 225px;
+}
+
+.portDesc {
+	position: absolute;
+	background-image: url("../images/containerBG.png");
+	border-radius: 9px;
+	width: 180px;
+	height: 50px;
+	bottom: 30px;
+	right: 20px;
+}
+
+.portDesc:hover {
+	position: absolute;
+	background-image: url("../images/confectionary.png");
+	border-radius: 9px;
+	width: 180px;
+	height: 50px;
+	bottom: 30px;
+	right: 20px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	color: #444;
+	margin-top: 15px;
+}
+
+
