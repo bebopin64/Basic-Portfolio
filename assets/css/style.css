@@ -4,6 +4,7 @@
 	background-repeat: repeat;
 	overflow: hidden;
 	margin: 10px 10px 10px 10px;
+	width: 960px;
 
 }
 
@@ -14,15 +15,14 @@
 	background-image: url("../images/confectionary.png");
 	border-radius: 25px;
 	padding: 0 40px 0 40px;
-	margin: 10px 0 10px 40px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	margin: 10px 0 10px 12px;
 	position: relative;
 }
 
 .myName {
 	position: absolute;
 	bottom: 8px;
-	right: 22px;
+	right: 13px;
 }
 
 
@@ -78,7 +78,6 @@
 
 .container {
 	margin: 10px 10px 0 10px;
-	padding: 0 0 0 15px;
 	clear: both;
 	overflow: hidden;
 	border-top-right-radius: 25px;
@@ -88,12 +87,13 @@
 	border-bottom-style: solid;
 	background-image: url("../images/containerBG.png");
 	background-repeat: repeat;
+	width: 960px;
 }
 
 .aboutMe {
-	width: 84.8%;
+	width: 650px;
 	float: left;
-	margin: 12px 0px 12px 25px;
+	margin: 12px 0px 12px 12px;
 	background-image: url("../images/confectionary.png");
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -128,7 +128,6 @@
 }
 
 p.aboutMeText {
-	font-family: sans-serif;
 	font-size: 1.2em;
 }
 
@@ -141,18 +140,17 @@ p.aboutMeText {
 }
 
 .float {
-	height: 225px;
-	width: 82px;
+	height: 56px;
+	width: 161px;
 	top: 112px;
-	left: 91%;
+	left: 760px;
 	background-image: url("../images/confectionary.png");
-	border-radius: 25px;
+	border-radius: 27px;
 	position: fixed;
 }
 
-.linkImg {
-	width: 70px;
-	padding: 6px 0 0 6px;
+.linkImgFloat {
+	float: left;
 }
 
 .floatChildA {
@@ -184,24 +182,26 @@ p.aboutMeText {
 	text-align: center;
 	padding: 15px;
 	background-color: #666;
-	font-size: 1.2em;
+	font-size: .8em;
 	color: lightgray;
 	margin: 0 10px 10px 10px;
+	width: 930px;
 }
 
 body {
 	font-size: 13.66px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h1 {
-	font-family: serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 3em;
 	margin-top: 30px;
 	color: #444;
 }
 
 h2 {
-	font-family: serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 2.2em;
 	color: #444;
 }
