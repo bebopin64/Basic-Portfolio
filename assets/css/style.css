@@ -3,8 +3,10 @@
 	background-image: url("../images/containerBG.png");
 	background-repeat: repeat;
 	overflow: hidden;
-	margin: 10px 10px 10px 10px;
+	margin: 0 auto;
 	width: 960px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 }
 
@@ -72,7 +74,8 @@
 }
 
 .container {
-	margin: 10px 10px 0 10px;
+	margin: 0 auto;
+	margin-top: 10px;
 	clear: both;
 	overflow: hidden;
 	border-top-right-radius: 10px;
@@ -83,6 +86,7 @@
 	background-image: url("../images/containerBG.png");
 	background-repeat: repeat;
 	width: 960px;
+	position: relative;
 }
 
 .main {
@@ -127,12 +131,12 @@ p.aboutMeText {
 }
 
 .float {
-	top: 112px;
-	left: 663px;
+	top: 12px;
+	left: 650px;
 	background-image: url("../images/confectionary.png");
 	border-radius: 8px;
 	padding: 5px;
-	position: fixed;
+	position: absolute;
 }
 
 .linkImgFloat {
@@ -149,7 +153,8 @@ p.aboutMeText {
 	border-bottom-right-radius: 10px;
 	font-size: .8em;
 	color: lightgray;
-	margin: 0 10px 10px 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 	width: 930px;
 }
 
@@ -261,18 +266,22 @@ h3 {
 		width: 376px;
 	}
 	.topContainer {
-		margin-left: 0;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		width: 748px;
 	}
 	.container {
 		padding-bottom: 0px;
 		width: 748px;
-		margin-left: 0;
+		margin: 0 auto;
+		margin-top: 10px;
+		position: relative;
 	}
 	.float {
 		position: absolute;
 		width: 100px;
-		top: 111px;
+		top: 12px;
 		left: 625px;
 
 	}
@@ -281,7 +290,7 @@ h3 {
 	}
 
 	.footer {
-		margin-left: 0;
+		margin: 0 auto;
 		width: 718px;
 	}
 
@@ -327,8 +336,8 @@ h3 {
 @media screen and (max-width: 768px) {
 	.float {
 		position: absolute;
-		top: 795px;
-		left: 165px;
+		top: 665px;
+		left: 160px;
 		width: 286px;
 	}
 
@@ -336,6 +345,8 @@ h3 {
 	.container {
 		padding-bottom: 120px;
 		width: 620px;
+		margin: 0 auto;
+		position: relative;
 	}
 
 	.footer {
@@ -344,6 +355,7 @@ h3 {
 
 	.topContainer {
 		width: 620px;
+		margin: 0 auto;
 	}
 
 	
@@ -402,9 +414,9 @@ h3 {
 }
 
 @media screen and (max-width: 640px) {
-		.float {
+	.float {
 		position: absolute;
-		top: 890px;
+		top: 760px;
 		left: 110px;
 		width: 286px;
 	}
@@ -413,6 +425,8 @@ h3 {
 	.container {
 		padding-bottom: 120px;
 		width: 520px;
+		margin: 0 auto;
+		position: relative;
 	}
 
 	.footer {
@@ -421,6 +435,7 @@ h3 {
 
 	.topContainer {
 		width: 520px;
+		margin: 0 auto;
 	}
 
 	
