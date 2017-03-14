@@ -285,6 +285,42 @@ h3 {
 		width: 718px;
 	}
 
+.pageLinks {
+	background-image: url("../images/confectionary.png");
+	border-radius: 5px;
+	float: right;
+	padding: 4px 10px 4px 10px;
+	font-size: 2em;
+	margin: 3px 5px 0 5px;
+}
+
+.pageLinksContact {
+	background-image: url("../images/confectionary.png");
+	border-radius: 5px;
+	float: right;
+	padding: 4px 10px 4px 10px;
+	font-size: 2em;
+	margin: 3px 0 0 5px;
+}
+
+.pageLinks:hover {
+	background-image: url("../images/containerBG.png");
+	border-radius: 5px;
+	float: right;
+	padding: 4px 10px 4px 10px;
+	font-size: 2em;
+	margin: 3px 5px 0 5px;
+}
+
+.pageLinksContact:hover {
+	background-image: url("../images/containerBG.png");
+	border-radius: 5px;
+	float: right;
+	padding: 4px 10px 4px 10px;
+	font-size: 2em;
+	margin: 3px 0 0 5px;
+}
+
 
 }
 
